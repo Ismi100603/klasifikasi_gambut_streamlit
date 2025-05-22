@@ -41,7 +41,7 @@ download_model()
 model = tf.keras.models.load_model('model/cnn_model.h5')
 
 # Label kelas prediksi
-label_kelas = ['Fibrik', 'Hemik', 'Saprik', 'Nontanah']
+label_kelas = ['Fibrik', 'Hemik', 'Nontanah', 'Saprik']
 
 # Upload gambar
 st.markdown("### 📤 Silakan upload gambar tanah:")
